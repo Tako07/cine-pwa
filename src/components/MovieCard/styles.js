@@ -44,6 +44,10 @@ export const List = styled.ul`
   margin: 0;
   padding: 0;
   overflow: hidden;
+  border-bottom: 1px outset rgba(0,0,0,0.78);
+  border-left: 1px outset rgba(0,0,0,0.78);
+  border-right: 1px outset rgba(0,0,0,0.78);
+  border-top: 1px outset rgba(0,0,0,0.78);
 `
 
 export const Item = styled.li`

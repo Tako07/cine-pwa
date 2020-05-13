@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from '@reach/router'
 import { ImgWrapper, Img, Article, List, Item, SchedulesText } from './styles'
-import { FaTicketAlt } from 'react-icons/fa'
 
 
 const DEFAULT_IMAGE = 'https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png'
