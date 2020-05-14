@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.bec6ef767a8c39386c31b18ef2fbb642.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_384x384.0aac0c4e3b18144ddce46e15579ebd2e.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x256.38c69f6fd13329de25f6fbb76f48a18d.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.60978d9bcf9cbd5f7b5824595378f4d4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.78cdf6b72dab4fb291b0a3c468222e92.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.9acd42e0fd19fe4f751f157b3fa1365c.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Takocinemas - La mejor app de cine",
+  "short_name": "Takocinemas",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Una pwa sencilla",
+  "background_color": "#fff",
+  "theme_color": "#b1a"
+}

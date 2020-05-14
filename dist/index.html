@@ -1,1 +1,27 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Webpack App</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><script src="app.bundle.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine</title>
+<meta name="theme-color" content="#b1a" /><link rel="manifest" href="manifest.77e681932de1e7e1101b97ade80c7d38.json" /></head>
+<body>
+    <div id="app">
+    <noscript>
+        <h3>Esta app necesita Javascript para funcionar</h3>
+    </noscript>
+    <script>
+        if('serviceWorker' in navigator){
+            window.addEventListener('load', function(){
+                navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('SW registrado')
+                }).catch(error => {
+                    console.log('error', error)
+                }) 
+            })
+        }
+    </script>
+    </div>
+<script src="app.bundle.js"></script></body>
+</html>

@@ -3,6 +3,7 @@ import { PayPalBtn } from '../components/PayPayButton'
 import HashLoader from 'react-spinners/HashLoader'
 import QRCode from 'qrcode.react'
 import firebase from 'firebase/app'
+import { CenteredDiv } from './styles'
 
 function useMovieData(id) {
     const [info, setInfo] = useState({})
@@ -36,7 +37,14 @@ export const Tickets = ({id, hora}) => {
     }
     if(qrCode){
         return (
-            <QRCode value={`Boleto para: ${info.name} a las ${info.schedules[hora]}`} />
+            <>
+                <CenteredDiv>
+                        <QRCode value={`Boleto para: ${info.name} a las ${info.schedules[hora]}`} />
+                </CenteredDiv>
+                <CenteredDiv>
+                    <p>Enseña este código a la entrada de tu funicón</p>
+                </CenteredDiv>
+            </>
         )
     }
     return (

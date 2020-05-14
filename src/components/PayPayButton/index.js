@@ -10,7 +10,7 @@ export class PayPalBtn extends React.Component {
               currency={currency}
               onSuccess={(details, data) => onSuccess(details, data)}
               options={{
-                clientId: process.env.REACT_APP_PAYPAL_CLIENT
+                clientId: 'AQ5BpD5q-nr5AHvLyZIhIwavCFZeueO4W63NKkP5y3PtdSAufkY2u-HxZ7OEzAaSUq-jKnliji8OfXoq'
               }}
           />
         );
